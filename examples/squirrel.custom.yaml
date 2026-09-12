@@ -1,0 +1,12 @@
+# Merge into ~/Library/Rime/squirrel.custom.yaml (create the file if needed).
+# Paste xxd_* blocks from schemes/xxd.squirrel.yaml under preset_color_schemes.
+# Copy one pair, several pairs, or all of them. Do not symlink. Do not __include.
+
+patch:
+  style/color_scheme: xxd_tiffany
+  style/color_scheme_dark: xxd_tiffany_night
+  preset_color_schemes:
+    # xxd_tiffany:
+    #   ...
+    # xxd_tiffany_night:
+    #   ...

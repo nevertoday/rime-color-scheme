@@ -1,0 +1,1309 @@
+# XXD color schemes for Squirrel (macOS Rime)
+# https://github.com/nevertoday/rime-color-scheme
+#
+# Selected chip = the brand color. Light is paper, night is gallery black.
+# Copy these xxd_* blocks into your own squirrel.custom.yaml.
+# Do not symlink this file into ~/Library/Rime and do not __include it.
+
+patch:
+  preset_color_schemes:
+    xxd_tiffany:
+      name: xxd蒂芙尼蓝
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xE2E8ED                    # 条 #EDE8E2
+      border_color: 0xD7DCE1
+      text_color: 0x38392B
+      hilited_text_color: 0x3C3D2E
+      hilited_back_color: 0xD0D881            # 品牌原色 #81D8D0
+      hilited_candidate_back_color: 0xD0D881
+      hilited_candidate_text_color: 0x80760A  # #0A7680
+      hilited_candidate_label_color: 0x80760A
+      hilited_comment_text_color: 0x8E881F    # #1F888E
+      candidate_text_color: 0x3C3D2E          # 未选项 #2E3D3C
+      comment_text_color: 0x7E806B
+      label_color: 0x7E806B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_tiffany_night:
+      name: xxd蒂芙尼蓝夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x1A1A12                    # 夜底 #121A1A
+      border_color: 0x282820
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD3D4CE
+      hilited_text_color: 0xD8D9D4
+      hilited_back_color: 0xD0D881            # 品牌原色 #81D8D0
+      hilited_candidate_back_color: 0xD0D881
+      hilited_candidate_text_color: 0x80760A  # #0A7680
+      hilited_candidate_label_color: 0x80760A
+      hilited_comment_text_color: 0x8E881F    # #1F888E
+      candidate_text_color: 0xE9E9E7
+      comment_text_color: 0xA8AA9D
+      label_color: 0xA8AA9D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_hermes:
+      name: xxd爱马仕橙
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xE6EEF4                    # 条 #F4EEE6
+      border_color: 0xDAE2E8
+      text_color: 0x2B3139
+      hilited_text_color: 0x2E343D
+      hilited_back_color: 0x2170F3            # 品牌原色 #F37021
+      hilited_candidate_back_color: 0x2170F3
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xD4E4F8    # #F8E4D4
+      candidate_text_color: 0x2E343D          # 未选项 #3D342E
+      comment_text_color: 0x6B7380
+      label_color: 0x6B7380
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_hermes_night:
+      name: xxd爱马仕橙夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0C121A                    # 夜底 #1A120C
+      border_color: 0x1A2028
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xCED0D4
+      hilited_text_color: 0xD4D6D9
+      hilited_back_color: 0x2170F3            # 品牌原色 #F37021
+      hilited_candidate_back_color: 0x2170F3
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xD4E4F8    # #F8E4D4
+      candidate_text_color: 0xE7E8E9
+      comment_text_color: 0x9DA2AA
+      label_color: 0x9DA2AA
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_klein:
+      name: xxd克莱因蓝
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF7F3F1                    # 条 #F1F3F7
+      border_color: 0xEBE7E5
+      text_color: 0x392F2B
+      hilited_text_color: 0x3D322E
+      hilited_back_color: 0xA72F00            # 品牌原色 #002FA7
+      hilited_candidate_back_color: 0xA72F00
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xF3E2DB    # #DBE2F3
+      candidate_text_color: 0x3D322E          # 未选项 #2E323D
+      comment_text_color: 0x80716B
+      label_color: 0x80716B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_klein_night:
+      name: xxd克莱因蓝夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0E1114                    # 夜底 #14110E
+      border_color: 0x1C1F22
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD4D0CE
+      hilited_text_color: 0xD9D6D4
+      hilited_back_color: 0xA72F00            # 品牌原色 #002FA7
+      hilited_candidate_back_color: 0xA72F00
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xF3E2DB    # #DBE2F3
+      candidate_text_color: 0xE9E8E7
+      comment_text_color: 0xAAA09D
+      label_color: 0xAAA09D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_rolex:
+      name: xxd水鬼绿
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF2F0EE                    # 条 #EEF0F2
+      border_color: 0xE6E4E2
+      text_color: 0x34392B
+      hilited_text_color: 0x373D2E
+      hilited_back_color: 0x396000            # 品牌原色 #006039
+      hilited_candidate_back_color: 0x396000
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xE3E9DB    # #DBE9E3
+      candidate_text_color: 0x373D2E          # 未选项 #2E3D37
+      comment_text_color: 0x77806B
+      label_color: 0x77806B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_rolex_night:
+      name: xxd水鬼绿夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0E1114                    # 夜底 #14110E
+      border_color: 0x1C1F22
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD2D4CE
+      hilited_text_color: 0xD7D9D4
+      hilited_back_color: 0x396000            # 品牌原色 #006039
+      hilited_candidate_back_color: 0x396000
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xE3E9DB    # #DBE9E3
+      candidate_text_color: 0xE8E9E7
+      comment_text_color: 0xA4AA9D
+      label_color: 0xA4AA9D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_ferrari:
+      name: xxd法拉利红
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF2F3F5                    # 条 #F5F3F2
+      border_color: 0xE6E7E9
+      text_color: 0x2B2D39
+      hilited_text_color: 0x2E303D
+      hilited_back_color: 0x0028FF            # 品牌原色 #FF2800
+      hilited_candidate_back_color: 0x0028FF
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xDBE1FF    # #FFE1DB
+      candidate_text_color: 0x2E303D          # 未选项 #3D302E
+      comment_text_color: 0x6B6E80
+      label_color: 0x6B6E80
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_ferrari_night:
+      name: xxd法拉利红夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0E0E1C                    # 夜底 #1C0E0E
+      border_color: 0x1C1C2A
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xCECFD4
+      hilited_text_color: 0xD4D5D9
+      hilited_back_color: 0x0028FF            # 品牌原色 #FF2800
+      hilited_candidate_back_color: 0x0028FF
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xDBE1FF    # #FFE1DB
+      candidate_text_color: 0xE7E7E9
+      comment_text_color: 0x9D9FAA
+      label_color: 0x9D9FAA
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_barbie:
+      name: xxd芭比粉
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF3F2F5                    # 条 #F5F2F3
+      border_color: 0xE7E6E9
+      text_color: 0x332B39
+      hilited_text_color: 0x362E3D
+      hilited_back_color: 0x8418DA            # 品牌原色 #DA1884
+      hilited_candidate_back_color: 0x8418DA
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xEEDFFA    # #FADFEE
+      candidate_text_color: 0x362E3D          # 未选项 #3D2E36
+      comment_text_color: 0x776B80
+      label_color: 0x776B80
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_barbie_night:
+      name: xxd芭比粉夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x160E1A                    # 夜底 #1A0E16
+      border_color: 0x241C28
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD1CED4
+      hilited_text_color: 0xD7D4D9
+      hilited_back_color: 0x8418DA            # 品牌原色 #DA1884
+      hilited_candidate_back_color: 0x8418DA
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xEEDFFA    # #FADFEE
+      candidate_text_color: 0xE8E7E9
+      comment_text_color: 0xA49DAA
+      label_color: 0xA49DAA
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_coke:
+      name: xxd可口可乐红
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xECF3F7                    # 条 #F7F3EC
+      border_color: 0xE0E7EB
+      text_color: 0x2C2B39
+      hilited_text_color: 0x2F2E3D
+      hilited_back_color: 0x0900F4            # 品牌原色 #F40009
+      hilited_candidate_back_color: 0x0900F4
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xDDDBFD    # #FDDBDD
+      candidate_text_color: 0x2F2E3D          # 未选项 #3D2E2F
+      comment_text_color: 0x6B6B80
+      label_color: 0x6B6B80
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_coke_night:
+      name: xxd可口可乐红夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0E0C1C                    # 夜底 #1C0C0E
+      border_color: 0x1C1A2A
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xCFCED4
+      hilited_text_color: 0xD5D4D9
+      hilited_back_color: 0x0900F4            # 品牌原色 #F40009
+      hilited_candidate_back_color: 0x0900F4
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xDDDBFD    # #FDDBDD
+      candidate_text_color: 0xE7E7E9
+      comment_text_color: 0x9D9DAA
+      label_color: 0x9D9DAA
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_starbucks:
+      name: xxd星巴克绿
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xE8F0F4                    # 条 #F4F0E8
+      border_color: 0xDCE4E8
+      text_color: 0x35392B
+      hilited_text_color: 0x383D2E
+      hilited_back_color: 0x4A7000            # 品牌原色 #00704A
+      hilited_candidate_back_color: 0x4A7000
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xE6EBDB    # #DBEBE6
+      candidate_text_color: 0x383D2E          # 未选项 #2E3D38
+      comment_text_color: 0x79806B
+      label_color: 0x79806B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_starbucks_night:
+      name: xxd星巴克绿夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0B0E12                    # 夜底 #120E0B
+      border_color: 0x191C20
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD2D4CE
+      hilited_text_color: 0xD7D9D4
+      hilited_back_color: 0x4A7000            # 品牌原色 #00704A
+      hilited_candidate_back_color: 0x4A7000
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xE6EBDB    # #DBEBE6
+      candidate_text_color: 0xE8E9E7
+      comment_text_color: 0xA5AA9D
+      label_color: 0xA5AA9D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_ikea_blue:
+      name: xxd宜家蓝
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF8F5F2                    # 条 #F2F5F8
+      border_color: 0xECE9E6
+      text_color: 0x39332B
+      hilited_text_color: 0x3D362E
+      hilited_back_color: 0xA35800            # 品牌原色 #0058A3
+      hilited_candidate_back_color: 0xA35800
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0x4CE2FF    # #FFE24C
+      candidate_text_color: 0x3D362E          # 未选项 #2E363D
+      comment_text_color: 0x80766B
+      label_color: 0x80766B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_ikea_blue_night:
+      name: xxd宜家蓝夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0E1114                    # 夜底 #14110E
+      border_color: 0x1C1F22
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD4D1CE
+      hilited_text_color: 0xD9D7D4
+      hilited_back_color: 0xA35800            # 品牌原色 #0058A3
+      hilited_candidate_back_color: 0xA35800
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0x4CE2FF    # #FFE24C
+      candidate_text_color: 0xE9E8E7
+      comment_text_color: 0xAAA49D
+      label_color: 0xAAA49D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_ikea_yellow:
+      name: xxd宜家黄
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x6B3F1A                    # 条 #1A3F6B；海军蓝条衬原黄
+      border_color: 0x774E2C
+      text_color: 0xE5E8E8
+      hilited_text_color: 0xE4E7E7
+      hilited_back_color: 0x1ADAFF            # 品牌原色 #FFDA1A
+      hilited_candidate_back_color: 0x1ADAFF
+      hilited_candidate_text_color: 0xA35800  # #0058A3
+      hilited_candidate_label_color: 0xA35800
+      hilited_comment_text_color: 0xB77D38    # #387DB7
+      candidate_text_color: 0xE4E7E7          # 未选项 #E7E7E4
+      comment_text_color: 0xB2BBBD
+      label_color: 0xB2BBBD
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_ikea_yellow_night:
+      name: xxd宜家黄夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x101A1C                    # 夜底 #1C1A10
+      border_color: 0x1E282A
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xCED3D4
+      hilited_text_color: 0xD4D8D9
+      hilited_back_color: 0x1ADAFF            # 品牌原色 #FFDA1A
+      hilited_candidate_back_color: 0x1ADAFF
+      hilited_candidate_text_color: 0xA35800  # #0058A3
+      hilited_candidate_label_color: 0xA35800
+      hilited_comment_text_color: 0xB4762E    # #2E76B4
+      candidate_text_color: 0xE7E9E9
+      comment_text_color: 0x9DA8AA
+      label_color: 0x9DA8AA
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_chanel:
+      name: xxd香奈儿黑
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF3F6F7                    # 条 #F7F6F3
+      border_color: 0xE7EAEB
+      text_color: 0x303235
+      hilited_text_color: 0x333538
+      hilited_back_color: 0x000000            # 品牌原色 #000000
+      hilited_candidate_back_color: 0x000000
+      hilited_candidate_text_color: 0xF3F6F7  # #F7F6F3
+      hilited_candidate_label_color: 0xF3F6F7
+      hilited_comment_text_color: 0xDBDBDB    # #DBDBDB
+      candidate_text_color: 0x333538          # 未选项 #383533
+      comment_text_color: 0x717579
+      label_color: 0x717579
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_chanel_night:
+      name: xxd香奈儿黑夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x1C1C1C                    # 夜底 #1C1C1C；炭黑条，黑块 + 象牙字
+      border_color: 0x2A2A2A
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD0D1D2
+      hilited_text_color: 0xD6D7D7
+      hilited_back_color: 0x000000            # 品牌原色 #000000
+      hilited_candidate_back_color: 0x000000
+      hilited_candidate_text_color: 0xF3F6F7  # #F7F6F3
+      hilited_candidate_label_color: 0xF3F6F7
+      hilited_comment_text_color: 0xDBDBDB    # #DBDBDB
+      candidate_text_color: 0xE8E8E8
+      comment_text_color: 0xA1A3A5
+      label_color: 0xA1A3A5
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_cartier:
+      name: xxd卡地亚红
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xECF3F7                    # 条 #F7F3EC
+      border_color: 0xE0E7EB
+      text_color: 0x2D2B39
+      hilited_text_color: 0x302E3D
+      hilited_back_color: 0x1B02D0            # 品牌原色 #D0021B
+      hilited_candidate_back_color: 0x1B02D0
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xDFDCF8    # #F8DCDF
+      candidate_text_color: 0x302E3D          # 未选项 #3D2E30
+      comment_text_color: 0x6D6B80
+      label_color: 0x6D6B80
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_cartier_night:
+      name: xxd卡地亚红夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0E0C1A                    # 夜底 #1A0C0E
+      border_color: 0x1C1A28
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xCFCED4
+      hilited_text_color: 0xD5D4D9
+      hilited_back_color: 0x1B02D0            # 品牌原色 #D0021B
+      hilited_candidate_back_color: 0x1B02D0
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xDFDCF8    # #F8DCDF
+      candidate_text_color: 0xE7E7E9
+      comment_text_color: 0x9E9DAA
+      label_color: 0x9E9DAA
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_emerald:
+      name: xxd祖母绿
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF5F4F3                    # 条 #F3F4F5
+      border_color: 0xE9E8E7
+      text_color: 0x37392B
+      hilited_text_color: 0x3A3D2E
+      hilited_back_color: 0x739400            # 品牌原色 #009473
+      hilited_candidate_back_color: 0x739400
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xEBF0DB    # #DBF0EB
+      candidate_text_color: 0x3A3D2E          # 未选项 #2E3D3A
+      comment_text_color: 0x7B806B
+      label_color: 0x7B806B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_emerald_night:
+      name: xxd祖母绿夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x12140E                    # 夜底 #0E1412
+      border_color: 0x20221C
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD3D4CE
+      hilited_text_color: 0xD8D9D4
+      hilited_back_color: 0x739400            # 品牌原色 #009473
+      hilited_candidate_back_color: 0x739400
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xEBF0DB    # #DBF0EB
+      candidate_text_color: 0xE9E9E7
+      comment_text_color: 0xA7AA9D
+      label_color: 0xA7AA9D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_coral:
+      name: xxd活珊瑚橙
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xEEF0F3                    # 条 #F3F0EE
+      border_color: 0xE2E4E7
+      text_color: 0x2B2C39
+      hilited_text_color: 0x2E2F3D
+      hilited_back_color: 0x616FFF            # 品牌原色 #FF6F61
+      hilited_candidate_back_color: 0x616FFF
+      hilited_candidate_text_color: 0x252C74  # #742C25
+      hilited_candidate_label_color: 0x252C74
+      hilited_comment_text_color: 0x30388D    # #8D3830
+      candidate_text_color: 0x2E2F3D          # 未选项 #3D2F2E
+      comment_text_color: 0x6B6D80
+      label_color: 0x6B6D80
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_coral_night:
+      name: xxd活珊瑚橙夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x11121A                    # 夜底 #1A1211
+      border_color: 0x1F2028
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xCECFD4
+      hilited_text_color: 0xD4D5D9
+      hilited_back_color: 0x616FFF            # 品牌原色 #FF6F61
+      hilited_candidate_back_color: 0x616FFF
+      hilited_candidate_text_color: 0x252C74  # #742C25
+      hilited_candidate_label_color: 0x252C74
+      hilited_comment_text_color: 0x30388D    # #8D3830
+      candidate_text_color: 0xE7E7E9
+      comment_text_color: 0x9D9EAA
+      label_color: 0x9D9EAA
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_ultraviolet:
+      name: xxd极光紫
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF8F3F4                    # 条 #F4F3F8
+      border_color: 0xECE7E8
+      text_color: 0x392B30
+      hilited_text_color: 0x3D2E33
+      hilited_back_color: 0x8B4B5F            # 品牌原色 #5F4B8B
+      hilited_candidate_back_color: 0x8B4B5F
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xEFE6E9    # #E9E6EF
+      candidate_text_color: 0x3D2E33          # 未选项 #332E3D
+      comment_text_color: 0x806B71
+      label_color: 0x806B71
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_ultraviolet_night:
+      name: xxd极光紫夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x160E12                    # 夜底 #120E16
+      border_color: 0x241C20
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD4CED0
+      hilited_text_color: 0xD9D4D6
+      hilited_back_color: 0x8B4B5F            # 品牌原色 #5F4B8B
+      hilited_candidate_back_color: 0x8B4B5F
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xEFE6E9    # #E9E6EF
+      candidate_text_color: 0xE9E7E8
+      comment_text_color: 0xAA9DA1
+      label_color: 0xAA9DA1
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_classic_blue:
+      name: xxd经典蓝
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF7F4F1                    # 条 #F1F4F7
+      border_color: 0xEBE8E5
+      text_color: 0x39332B
+      hilited_text_color: 0x3D362E
+      hilited_back_color: 0x814C0F            # 品牌原色 #0F4C81
+      hilited_candidate_back_color: 0x814C0F
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xEDE6DD    # #DDE6ED
+      candidate_text_color: 0x3D362E          # 未选项 #2E363D
+      comment_text_color: 0x80766B
+      label_color: 0x80766B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_classic_blue_night:
+      name: xxd经典蓝夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0E1114                    # 夜底 #14110E
+      border_color: 0x1C1F22
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD4D1CE
+      hilited_text_color: 0xD9D7D4
+      hilited_back_color: 0x814C0F            # 品牌原色 #0F4C81
+      hilited_candidate_back_color: 0x814C0F
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xEDE6DD    # #DDE6ED
+      candidate_text_color: 0xE9E8E7
+      comment_text_color: 0xAAA49D
+      label_color: 0xAAA49D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_peri:
+      name: xxd长春花蓝
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF8F3F3                    # 条 #F3F3F8
+      border_color: 0xECE7E7
+      text_color: 0x392B2B
+      hilited_text_color: 0x3D2E2E
+      hilited_back_color: 0xAB6766            # 品牌原色 #6667AB
+      hilited_candidate_back_color: 0xAB6766
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xF3EAEA    # #EAEAF3
+      candidate_text_color: 0x3D2E2E          # 未选项 #2E2E3D
+      comment_text_color: 0x806B6B
+      label_color: 0x806B6B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_peri_night:
+      name: xxd长春花蓝夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x1A1212                    # 夜底 #12121A
+      border_color: 0x282020
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD4CECE
+      hilited_text_color: 0xD9D4D4
+      hilited_back_color: 0xAB6766            # 品牌原色 #6667AB
+      hilited_candidate_back_color: 0xAB6766
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xF3EAEA    # #EAEAF3
+      candidate_text_color: 0xE9E7E7
+      comment_text_color: 0xAA9D9D
+      label_color: 0xAA9D9D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_royal:
+      name: xxd皇家蓝
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xF5F3F3                    # 条 #F3F3F5
+      border_color: 0xE9E7E7
+      text_color: 0x392F2B
+      hilited_text_color: 0x3D322E
+      hilited_back_color: 0xE16941            # 品牌原色 #4169E1
+      hilited_candidate_back_color: 0xE16941
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xFBEAE4    # #E4EAFB
+      candidate_text_color: 0x3D322E          # 未选项 #2E323D
+      comment_text_color: 0x80706B
+      label_color: 0x80706B
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_royal_night:
+      name: xxd皇家蓝夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x1C1210                    # 夜底 #10121C
+      border_color: 0x2A201E
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD4D0CE
+      hilited_text_color: 0xD9D6D4
+      hilited_back_color: 0xE16941            # 品牌原色 #4169E1
+      hilited_candidate_back_color: 0xE16941
+      hilited_candidate_text_color: 0xFFFFFF  # #FFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xFBEAE4    # #E4EAFB
+      candidate_text_color: 0xE9E8E7
+      comment_text_color: 0xAAA09D
+      label_color: 0xAAA09D
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_chartreuse:
+      name: xxd酸橙绿
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x28413E                    # 条 #3E4128；卡其条衬原霓虹
+      border_color: 0x39504D
+      text_color: 0xE5E8E8
+      hilited_text_color: 0xE4E7E7
+      hilited_back_color: 0x00FFDF            # 品牌原色 #DFFF00
+      hilited_candidate_back_color: 0x00FFDF
+      hilited_candidate_text_color: 0x15655B  # #5B6515
+      hilited_candidate_label_color: 0x15655B
+      hilited_comment_text_color: 0x118173    # #738111
+      candidate_text_color: 0xE4E7E7          # 未选项 #E7E7E4
+      comment_text_color: 0xB2BDBC
+      label_color: 0xB2BDBC
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_chartreuse_night:
+      name: xxd酸橙绿夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x0A1210                    # 夜底 #10120A
+      border_color: 0x18201E
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xCED4D3
+      hilited_text_color: 0xD4D9D8
+      hilited_back_color: 0x00FFDF            # 品牌原色 #DFFF00
+      hilited_candidate_back_color: 0x00FFDF
+      hilited_candidate_text_color: 0x15655B  # #5B6515
+      hilited_candidate_label_color: 0x15655B
+      hilited_comment_text_color: 0x118173    # #738111
+      candidate_text_color: 0xE7E9E9
+      comment_text_color: 0x9DAAA8
+      label_color: 0x9DAAA8
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_millennial:
+      name: xxd千禧粉
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0xEEF1F6                    # 条 #F6F1EE
+      border_color: 0xE2E5EA
+      text_color: 0x2C2B39
+      hilited_text_color: 0x2F2E3D
+      hilited_back_color: 0xC8C6F3            # 品牌原色 #F3C6C8
+      hilited_candidate_back_color: 0xC8C6F3
+      hilited_candidate_text_color: 0x393678  # #783639
+      hilited_candidate_label_color: 0x393678
+      hilited_comment_text_color: 0x53508E    # #8E5053
+      candidate_text_color: 0x2F2E3D          # 未选项 #3D2E2F
+      comment_text_color: 0x6C6B80
+      label_color: 0x6C6B80
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
+    xxd_millennial_night:
+      name: xxd千禧粉夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x15141A                    # 夜底 #1A1415
+      border_color: 0x232228
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xCFCED4
+      hilited_text_color: 0xD5D4D9
+      hilited_back_color: 0xC8C6F3            # 品牌原色 #F3C6C8
+      hilited_candidate_back_color: 0xC8C6F3
+      hilited_candidate_text_color: 0x393678  # #783639
+      hilited_candidate_label_color: 0x393678
+      hilited_comment_text_color: 0x53508E    # #8E5053
+      candidate_text_color: 0xE7E7E9
+      comment_text_color: 0x9D9DAA
+      label_color: 0x9D9DAA
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
+
